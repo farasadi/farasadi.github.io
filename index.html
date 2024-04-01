@@ -48,8 +48,9 @@
           <div class="social-links mt-3 text-center">
             <!--<a href="https://facebook.com/novafarasadi" class="facebook"><i class="bx bxl-facebook"></i></a> -->
             <!-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> -->
-            <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
-            <a href="https://linkedin.com/in/novafarasadi" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+
+            <a href="https://linkedin.com/in/novafarasadi" class="linkedin"><i class="bx bxl-linkedin" title="Visit my LinkedIn"></i></a>
+            <a href="project_exp.html" class="project_exp"><i class="bx bx-bar-chart-alt-2" title="Project Experiences"></i></a>
           </div>
         </div>
 
@@ -70,8 +71,11 @@
             <li>
               <a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a>
             </li>
-            <li>
+            <!-- <li>
               <a href="project_exp.html" class="nav-link scrollto"><i class="bx bx-news"></i> <span>Projects</span></a>
+            </li> -->
+            <li>
+              <a href="#contact" class="nav-link scrollto"><i class="bx bx-message-dots"></i> <span>Contacts</span></a>
             </li>
           </ul>
         </nav>
@@ -502,7 +506,7 @@
 
       <!-- ======= Contact Section =========-->
 
-      <section id="contact" class="resume">
+      <section id="contact" class="contact">
         <div class="container">
           <div class="section-title">
             <h2>Contact Me</h2>
@@ -513,23 +517,24 @@
           <div class="row justify-content-center">
             <div class="col-md-8">
               <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-                <strong>Thank You!</strong> Your message has been submited.
+                <strong>You are Awesome!</strong> Thank you for your message.
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
               </div>
 
               <form name="nfs-contact-form">
                 <div class="mb-3">
                   <label for="name" class="form-label">Your Name</label>
-                  <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+                  <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" required />
+                  <div class="valid-feedback">Looks good!</div>
                 </div>
                 <div class="mb-3">
                   <label for="email" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                  <input type="email" class="form-control" id="email" aria-describedby="email" name="email" required />
                   <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div class="mb-3">
                   <label for="message" class="form-label">Message</label>
-                  <textarea class="form-control" id="message" rows="3" name="pesan"></textarea>
+                  <textarea class="form-control" id="message" rows="3" name="pesan" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary btn-kirim">Submit</button>
 
